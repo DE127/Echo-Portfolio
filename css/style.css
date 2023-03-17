@@ -335,6 +335,15 @@ html.w-mod-touch * {
   border-radius: 0
 }
 
+.w-button:active {
+  background-color: #41b3ff
+}
+
+.w-button:hover {
+  background-color: #2d7db1
+}
+
+
 input.w-button {
   -webkit-appearance: button
 }
@@ -570,11 +579,11 @@ button,
   margin: 0 0 15px
 }
 
-.w-form-done {
+.w-form-done, #susscess-message-done {
   display: none;
-  padding: 20px;
+  padding: 40px;
   text-align: center;
-  background-color: #dddddd
+  background-color: #333;
 }
 
 .w-form-fail {
@@ -4753,7 +4762,7 @@ body.light .progress-wrap svg.progress-circle path {
   padding-right: 40px;
   padding-left: 40px;
   border-radius: 100px;
-  background-color: #b16cea;
+  background-color: #005e0e;
   font-family: Montserrat, sans-serif;
   color: #fff;
   font-size: 16px;
